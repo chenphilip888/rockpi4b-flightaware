@@ -23,7 +23,7 @@ piaware:
 	cd ${DIR}/piaware_builder/package-buster; \
 	sudo dpkg-buildpackage -b --no-sign
 	cd ${DIR}/piaware_builder; \
-	sudo dpkg -i piaware_4.0_arm64.deb
+	sudo dpkg -i piaware_5.0_arm64.deb
 
 dump1090:
 	cd ${DIR}; \
